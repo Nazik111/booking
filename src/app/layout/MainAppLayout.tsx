@@ -16,7 +16,7 @@ export const MainAppLayout = ({ children }: { children: React.ReactNode }) => {
       </div>
 
       <main className="relative z-10">
-        <div className="w-full sm:max-w-[1320px] sm:px-6 sm:py-12 sm:flex sm:justify-center">
+        <div className="w-full sm:max-w-[1320px] sm:px-6 sm:py-12 sm:flex sm:justify-center mx-auto">
           {children}
         </div>
       </main>

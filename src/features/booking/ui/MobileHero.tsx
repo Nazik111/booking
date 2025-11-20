@@ -4,7 +4,7 @@ export const MobileHero = () => {
   return (
     <div
       className="
-        sm:hidden relative h-full overflow-hidden z-1
+        sm:hidden relative h-full overflow-hidden z-1 w-full
         bg-[linear-gradient(170deg,#7a430f_0%,#c37412_40%,#eaa21d_78%,#f0ae38_100%)]
       "
     >
@@ -12,7 +12,7 @@ export const MobileHero = () => {
         src={profileImg}
         alt=""
         className="
-          select-none pointer-events-none object-cover h-full"
+          select-none pointer-events-none object-cover h-full w-full"
         draggable={false}
       />
 
